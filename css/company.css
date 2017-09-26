@@ -1,0 +1,195 @@
+.box{
+	width: 100%;
+	background: url(../img/aboutus-bg.jpg) no-repeat left top;
+}
+
+.profile{
+	width: 1130px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.profile h2{
+	letter-spacing: 8px;
+    line-height: 50px;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 60px;
+    position: relative;
+}
+.profile h2 small{
+	display: block;
+	font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    height: 20px;
+    color: #929292;
+    font-family: inherit;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.profile h2:before{
+	content: '';
+	display: block;
+    width: 100px;
+    height: 4px;
+    background: #de0f18;
+    position: absolute;
+    top: -3px;
+    left: calc(50% - 50px);
+}
+.profile .left{
+	float: left;
+	width: 50%;
+}
+.profile .left img{
+	display: block;
+	width: 495px;
+	margin:0 auto;	
+}
+.profile .right{
+	float: left;
+	width: 50%;
+}
+.profile .right p{
+	line-height: 40px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding-left: 15px;
+}
+.culture{
+	margin-top: 80px;
+    padding-top: 2px;
+    background: rgba(165, 165, 165, 0.51);
+}
+.culture-box{
+	width: 1130px;
+	margin: 0 auto;
+}
+.culture-box h2{
+	letter-spacing: 5px;
+    line-height: 50px;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    margin-top:40px;
+    position: relative;
+    color: #FFF;
+}
+.culture-box h2 small{
+	display: block;
+	font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    height: 20px;
+    font-family: inherit;
+    font-weight: 500;
+    color: #fdfdfd;
+}
+.culture-box h2:before{
+	content: '';
+	display: block;
+    width: 100px;
+    height: 4px;
+    background: #de0f18;
+    position: absolute;
+    top: -3px;
+    left: calc(50% - 50px);
+}
+.culture-box ul{
+	padding: 50px 0;
+	overflow: hidden;
+}
+.culture-box .culture-hov{
+	width: 326px;
+	height: 607px;
+	float: left;
+	margin: 0 25px;
+}
+.culture-box ul li{
+	height: 607px;
+	background: #FFF;
+    transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    -webkit-animation-fill-mode: none;
+ 	 animation-fill-mode: none;
+}
+.culture-box ul li h3{
+	text-align: center;
+    padding-top: 20px;
+    background: #eeeeee;
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 40px;
+    height: 50px;
+    color: #333;
+    font-weight: bold;
+}
+.culture-box ul li h3 strong{
+    color: #de0f18;
+}
+.culture-box ul li p{
+	line-height: 24px;
+    letter-spacing: 1px;
+    padding: 12px 10px;
+    height: 174px;
+}
+.culture-box ul li img{
+	width: 100%;
+}
+.culture-box ul li:hover{
+	-webkit-box-shadow: 0 15px 30px rgba(10, 10, 10, 0.4);
+    box-shadow: 0 15px 30px rgba(10, 10, 10, 0.4);
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+}
+.cooperative{
+	width: 1160px;
+	margin: 0 auto 100px auto;
+}
+.cooperative h2{
+	letter-spacing: 8px;
+    line-height: 50px;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    margin-top:60px;
+    position: relative;
+    color: inherit;
+}
+.cooperative h2 small{
+	display: block;
+	font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    height: 20px;
+    font-family: inherit;
+    font-weight: 500;
+    color: #929292;
+}
+.cooperative h2:before{
+	content: '';
+	display: block;
+    width: 100px;
+    height: 4px;
+    background: #de0f18;
+    position: absolute;
+    top: -3px;
+    left: calc(50% - 50px);
+}
+.cooperative .cooperimg{
+	margin-top: 50px;
+}
+.cooperative .cooperimg .fadeIn{
+	width: 356px;
+	float: left;
+	margin: 0 15px;
+}
+.cooperative .cooperimg .fadeIn img{
+	width: 88%;
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+}

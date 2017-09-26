@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>		
+
+		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/comment.css"/>
+		<style type="text/css">
+			body{
+				background: #f5f5f5;
+			}
+			#concent{
+				width: 663px;
+				margin: 0 auto;
+				text-align: center;
+				padding-bottom: 200px;
+				padding-top: 80px;
+			}
+			.left{
+				width: 33.333%;
+				float: left;
+				padding-top: 60px;
+			}
+			.right{
+				width: 66.666%;
+				float: left;
+				padding-top: 70px;
+			}
+			.right p {
+				font-size: 21px;
+				line-height: 35px;
+				text-align: left;
+				padding: 0 8px;
+			}
+			.right p strong{
+				color: #de0f18;	
+			}
+			.right a {
+			    width: 150px;
+			    background: #e5493a;
+			    height: 42px;
+			    line-height: 42px;
+			    display: inline-block;
+			    text-align: center;
+			    font-size: 18px;
+			    color: #FFF;
+			    margin-top: 22px;
+			    text-decoration: none;
+			}
+		</style>
+	</head>
+	<body>
+	<!-------------------------------------------------导航开始-------------------------------------------------->
+	    <header>
+	    	<nav class="clearfix">
+	    		<h1><img src="img/logo.png" /></h1>
+	    		<ul>
+	    			<li><a href="index.html">公司首页</a></li>
+		            <li><a href='company.html' >企业简介</a></li>
+		            <li><a href='news/news.html'>行业新闻</a></li>
+		            <li><a href='cooperation.html' >商务合作</a></li>
+		            <li><a href='regionalagency.html' >区域代理</a></li>
+		            <li><a href='contactus.html' >联系我们</a></li>
+	    		</ul>
+	    	</nav>
+	    </header>
+	<!-------------------------------------------------导航结束-------------------------------------------------->
+		<section id='concent' class=" clearfix">
+			<img src="img/404notice.png" alt="404提醒"/>
+			<div class="left">
+				<img src="img/404contact.png" alt="项目融资资金合作咨询热线4006611313"/>
+			</div>
+			<div class="right">
+				<p>如果您有项目融资、资金合作相关问题<br />请拨打热线电话：<strong>400-661-1313</strong></p>
+				<a href="index.html">返回首页</a>
+			</div>
+		</section>
+	<!----------------------------------------------------footer开始---------------------------------------------------->
+	<div id="myfooter"></div>
+	<script type="text/javascript">
+		$(function(){
+	   		$("#myfooter").load("footer.html"); //footer和其他静态页放同一目录下
+		})
+	</script>
+	<!----------------------------------------------------footer结束---------------------------------------------------->
+	</body>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/wow.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+	if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+		new WOW().init();
+	};
+	</script>
+</html>

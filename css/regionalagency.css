@@ -1,0 +1,88 @@
+.box{
+	width: 100%;
+	background: url(../img/aboutus-bg.jpg) no-repeat left top;
+}
+.wangtyou{
+	width: 1070px;
+	padding: 30px 0;
+	margin: 0 auto;
+	text-align: center;
+}
+.wangtyou img{
+	width: 40%;
+}
+.text{
+	width: 1020px;
+	margin: 0 auto;
+	padding-bottom: 160px;
+}
+.text:before{
+	content: '';
+	display: block;
+	position: absolute;
+    width: 12px;
+    height: 618px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-left: 8px;
+    z-index: 0;
+    box-sizing: border-box;
+}
+.text h2{
+	width: 250px;
+    padding-top: 36px;
+    font-size: 24px;
+    line-height: 60px;
+    padding-left: 36px;
+    color: #de0f18;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.text h2 i{
+    width: 26px;
+    height: 26px;
+    border: 2px solid #e72e40;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 30px;
+    margin-right: 10px;
+    background: #FFF;
+    z-index: 999;
+    position: absolute;
+    margin-top: 17px;
+    margin-left: -35px;
+    box-sizing: border-box;
+}
+.text h2:hover{
+	font-size: 26px;
+}
+.text h2:hover i{
+	background: #de0f18;
+}
+.text p {
+    padding-left: 36px;
+    line-height: 40px;
+    min-height: 40px;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.text p i{
+    width: 20px;
+    height: 20px;
+    background: #de0f18;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 20px;
+    font-style: normal;
+    color: #FFF;
+    position: relative;
+    margin-right: 5px;
+    text-align: center;
+	text-indent: 2px;
+}

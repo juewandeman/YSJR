@@ -1,0 +1,198 @@
+body{
+	margin-top: 80px;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #333;
+}
+header,footer{
+	width: 100%;
+}
+/*-------------------------------------------导航开始-----------------------------*/
+header{
+	height: 80px;
+	background: white;
+	border-color: rgba(0,0,0,.08);
+    box-shadow: 0 1px 3px rgba(0,0,0,.03);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+nav{
+	margin: 0 auto;
+	width: 1130px;
+	padding: 0 15px;
+}
+nav h1{
+	width: 308px;
+	padding-top: 19px;
+	margin-right: 360px;
+	float: left;
+	cursor: pointer;
+}
+nav ul{
+	float: left;
+} 
+nav ul li{
+	float: left;
+	text-align: center;
+	position: relative;
+}
+nav ul li a{
+	display: block;
+	height: 80px;
+	line-height: 80px;
+	width: 77px;
+	color: #333333;
+	font-size: 15px;
+}
+nav ul li::after{
+	display: block;
+	width: 77px;
+	height:0px;
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #de0f18;
+	z-index: -1;
+}
+nav ul li::after,nav ul li a{
+	transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.active::after{
+	height: 80px;
+	opacity: 1;
+}
+.active a{
+	color: #fff !important;
+	background-color:#de0f18;
+}
+nav ul li:hover:after{
+	height: 80px;
+	opacity: 1;
+}
+nav ul li:hover a{
+	color: #fff;
+	background-color:#de0f18;
+}
+/*-------------------------------------------导航结束-----------------------------*/
+.banner{
+	width: 100%;
+}
+.banner img{
+	width: 100%;
+}
+/*navsub开始*/
+.navsub{
+    width: 88%;
+    margin: 0 auto;
+    padding: 18px 0px;
+    border-bottom: 1px solid #DDD;
+    margin-top: -5px;
+}
+.navsub span{
+	display: inline-block;
+	width: 28px;
+    height: 17px;
+    line-height: 22px;
+    background: url(../img/icon-position-home.png);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 1px;
+    background-size: 21px 19px;
+    margin-left: 61px;
+}
+.navsub a{
+	color: #333;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.navsub a:hover{
+	text-decoration: underline;
+}
+/*navsub结束*/
+/*--------------------------------------------footer开始-----------------------------*/
+footer{
+	background: #494443;
+}
+footer .iflink{
+	width: 1020px;
+	height: 200px;
+	margin: 0 auto;
+}
+footer h4{
+	text-align: center;
+    display: block;
+    padding: 18px 10px 24px 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #e4e4e4;
+    font-weight: inherit;
+}	
+footer .panel{
+    width: 20%;
+    float: left;
+    display: inline-block;
+    position: relative;
+}
+footer .panel a{
+	display: block;
+    text-align: center;
+    height: 28px;
+    line-height: 28px;
+    color: #989898;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    overflow: hidden;
+    padding: 0 25px;
+}
+footer .panel a:hover{
+	color: #FFFFFF;
+}
+footer .panel .flink-line{
+	width: 1px;
+    height: 80px;
+    background: #bfbfbf;
+    margin: 15px 0;
+    right: -1px;
+    top: 0;
+    position: absolute;
+}
+footer .copyright{
+	background-color: #3f3a39;
+	margin: 0 auto;
+    padding: 30px 0 30px 0;
+    text-align: center;
+    overflow: hidden;
+    color: #ddd;
+    font-size: 15px;
+}
+footer p a{
+    width: 122px;
+    height: 44px;
+    margin: 0px 6px;
+    border: 1px solid #3f3a39;
+    box-shadow: 1px 1px 1px #3f3a39;
+}
+footer p:nth-of-type(2){
+	font-size: 14px;	
+	margin: 6px 0;
+}
+footer p:last-of-type a{
+	color: #ddd;
+    margin: 0 auto;
+}
+footer p:last-of-type a:hover {
+	text-decoration: underline;    
+    outline: 0;
+}
+/*--------------------------------------------footer结束-----------------------------*/

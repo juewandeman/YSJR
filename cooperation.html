@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>		
+
+		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/comment.css"/>
+		<link rel="stylesheet" type="text/css" href="css/cooperation.css"/>
+	</head>
+	<body>
+	<!-------------------------------------------------导航开始-------------------------------------------------->
+	    <header>
+	    	<nav class="clearfix">
+	    		<h1><img src="img/logo.png" /></h1>
+	    		<ul>
+	    			<li><a href="index.html">公司首页</a></li>
+		            <li><a href='company.html' >企业简介</a></li>
+		            <li><a href='news/news.html'>行业新闻</a></li>
+		            <li class="active"><a href='cooperation.html' >商务合作</a></li>
+		            <li><a href='regionalagency.html' >区域代理</a></li>
+		            <li><a href='contactus.html' >联系我们</a></li>
+	    		</ul>
+	    	</nav>
+	    </header>
+	<!-------------------------------------------------导航结束---------------------------------------------------->
+	<section class="banner">
+		<img src="img/cooperation-slide.jpg" alt="诚信、专业、规范、高效是我们的服务宗旨！">
+	</section>
+	<div class="navsub">
+      <span></span>
+      <a href='index.html'>主页</a> > <a href='cooperation.html'>商务合作</a>
+    </div>
+	<!-------------------------------------------------企业简介开始----------------------------------------------->
+   	<section class="services">
+   		<h2>我们的服务<small>Ours Services</small></h2>
+   		<div class="wow fadeInUp">
+   			<p>拓展人脉资源 开启财富之路</p>
+   		</div>
+   		<img src="img/cooperation-process.png"/>
+   	</section>
+   	<section class="financing">
+   		<h2>项目融资</h2>
+   		<div class="wow fadeInUp">
+   			<p>低利率，高效率！匹配优化，轻松引资！</p>
+   		</div>
+   		<p class="ywsl"><strong>业务受理范围：</strong>根据具体项目情况，我们会引荐更具优势的资金方，满足融资需求。</p>
+   		<ul class="clearfix">
+   			<li>
+		        <h4>政府平台类机构项目</h4>
+		        <p>（城投、交投...）</p>
+		        <img src="img/government-project.png" alt="政府平台类机构项目">
+		    </li>
+		    <li>
+		        <i class="plus-left"></i>
+		        <i class="plus-right"></i>
+		        <h4>PPP、BT项目</h4>
+		        <p>（城市基础建设、轨道交通、<br>城市供水及垃圾处理、医院等）</p>
+		        <img src="img/ppp-project.png" alt="PPP、BT项目">
+		    </li>
+		    <li>
+		        <h4>重点项目</h4>
+		        <p>（有发改委批文）</p> 
+		        <img src="img/important-project.png" alt="重点项目">
+      		</li>
+   		</ul>
+   		<img src="img/financing-img.jpg"/>
+   </section>
+   <section class="coopera">
+   		<h2>资金合作</h2>
+   		<p>我们拥有庞大的项目资源库，针对融资项目的前期资料收集、审核、尽调后分类管理。</p>
+   		<div class="row clearfix">
+   			<div class="col">
+   				<div class="wow fadeInRight">
+		   			<img src="img/icon-cooperation-collect.png"/>
+   					<p>搜集</p>				
+   				</div>
+	   		</div>
+	   		<div class="col">
+	   			<div class="wow fadeInRight" data-wow-delay='0.2s'>
+		   			<img src="img/icon-cooperation-check.png"/>
+   					<p>审核</p>				
+   				</div>
+	   		</div>
+	   		<div class="col">
+	   			<div class="wow fadeInRight" data-wow-delay='0.3s'>
+		   			<img src="img/icon-cooperation-manage.png"/>
+   					<p>分类</p>				
+   				</div>
+	   		</div>
+   		</div>
+   		<ul class="clearfix">
+   			<li class="wow fadeInLeft"><p>金融市场产品繁多，但都会有自身的产品优势和适用 客户群体，我们致力于为每一个融资项目量身定制一整套金融类服务。</p></li>
+   			<li class="wow fadeInRight" data-wow-delay='0.2s' ><img src="img/cooperation-money.jpg"/></li>
+   			<li class="wow fadeInLeft" ><img src="img/cooperation-project.jpg"/></li>
+   			<li class="wow fadeInRight" data-wow-delay='0.2s' ><p>我们热忱欢迎您来与我们合作，让信息资源发挥更大价值！共同推动中国金融的发展！</p></li>
+   		</ul>
+   </section>
+	<!----------------------------------------------------footer开始---------------------------------------------------->
+	<div id="myfooter"></div>
+	<script type="text/javascript">
+		$(function(){
+	   		$("#myfooter").load("footer.html"); //footer和其他静态页放同一目录下
+		})
+	</script>
+	<!----------------------------------------------------footer结束---------------------------------------------------->
+	</body>
+	<script src="js/wow.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+	if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+		new WOW().init();
+	};
+	</script>
+</html>

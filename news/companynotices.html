@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="../js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>		
+
+		<link rel="stylesheet" type="text/css" href="../css/animate.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/comment.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/news.css"/>
+		<style type="text/css">
+			.box,.concent .concent-nav ul li a:after{
+			    background: #f4f4f4;
+			}
+			.box{
+				margin-bottom: 100px;
+			}
+			.left-top{
+				background: #ffffff;
+				padding: 30px 15px;
+				box-sizing: border-box;
+				font: 14px/30px "microsoft yahei";
+    			letter-spacing: 1px;
+    			margin-bottom: 20px;
+			}
+			.view{
+			    padding-bottom: 20px;
+				text-align: center;
+			}
+			.view h1 {
+			    font-size: 22px;
+			    line-height: 40px;
+			    height: 40px;
+			    font-weight: 500;
+			}
+			.date {
+			    border-bottom: 1px solid #e8e8e8; 
+			    height: 30px;
+			    line-height: 30px;
+			}		
+			.pagebox, .pagebox p {
+			    padding-bottom: 10px;
+			    line-height: 26px;
+			    text-indent: 2rem;
+			}
+			.pagebox p{
+				border: 0px;
+			    margin: 0px;
+			    padding: 10px 0px 20px;
+			    font-size: 16px;
+			    color: rgb(25, 25, 25);
+			    font-family: "PingFang SC", Arial, 微软雅黑, 宋体, simsun, sans-serif;
+			}
+			.pagebox p span{
+				font-size: 14px;
+			}
+			.pagebox img{
+				border: 0px;
+			    margin: 10px auto 0px;
+			    padding: 0px;
+			    display: block;
+			    max-width: 100%;
+			    height: auto;
+			}
+			.news-tag {
+			    text-align: right;
+			}
+			label {
+			    display: inline-block;
+			    max-width: 100%;
+			    margin-bottom: 5px;
+			    font-weight: bold;
+			}
+			.news-tag a,.viewpage a{
+			    color: #777;
+			}
+			.news-tag a:hover,.viewpage a:hover{
+			    color: #de0f18;
+			    text-decoration: underline;
+			}
+			.viewpage {
+			    width: 100%;
+			    height: auto;
+			    margin: 10px auto;
+			    overflow: hidden;
+			    position: relative;
+			    padding: 12px 0;
+			}
+			.viewpage p {
+			    width: 100%;
+			    height: 32px;
+			    font: 14px/32px "microsoft yahei";
+			    color: #777;
+			    overflow: hidden;
+			}
+			.back {
+			    position: absolute;
+			    right: 12px;
+			    bottom: 13px;
+			    font-size: 14px;
+			    line-height: 38px;
+			}
+			.news-copyright {
+				background: #fff;
+				padding: 15px 15px;
+			}
+			.news-copyright h4 {
+			    font-size: 15px;
+			    font-weight: bold;
+			    line-height: 16px;
+			    height: 24px;
+			}
+			.news-copyright p{
+			    color: #979797;
+			    line-height: 26px;
+			    font-size: 14px;
+			    letter-spacing: 1px;
+			}
+			
+			.bgfff{
+				background: white;
+			}
+		</style>
+	</head>
+	<body>
+	<!-------------------------------------------------导航开始-------------------------------------------------->
+	    <header>
+	    	<nav class="clearfix">
+	    		<h1><img src="../img/logo.png" /></h1>
+	    		<ul>
+	    			<li><a href="../index.html">公司首页</a></li>
+		            <li><a href='../company.html' >企业简介</a></li>
+		            <li class="active"><a href='news.html'>行业新闻</a></li>
+		            <li><a href='../cooperation.html' >商务合作</a></li>
+		            <li><a href='../regionalagency.html' >区域代理</a></li>
+		            <li><a href='../contactus.html' >联系我们</a></li>
+	    		</ul>
+	    	</nav>
+	    </header>
+	<!-------------------------------------------------导航结束---------------------------------------------------->
+	<section class="banner">
+		<img src="../img/news-slide.jpg" alt="诚信、专业、规范、高效是我们的服务宗旨！">
+	</section>
+	<div class="navsub">
+        <span></span>
+        <a href='index.html'>主页</a> > <a href='news.html'>行业新闻</a> > <a href="companynotices.html">公司公告</a>
+    </div>
+    <!-------------------------------------------------concent开始---------------------------------------------------->
+<div class="box">
+    <section class="concent">
+    	<div class="concent-nav">
+    		<ul class="clearfix">
+    			<li><a href="news.html">行业新闻</a></li>
+	            <li class="concent-active"><a href="companynotices.html">公司公告</a></li>
+	            <li><a href="/news/companynews/">公司新闻</a></li>
+	            <li><a href="/news/industryinformations/">行业资讯</a></li>
+    		</ul>
+    	</div>
+		<div class="concent-text clearfix">
+			<div class="concent-left">
+				<div class="left-top">
+					<div class="view">
+				        <h1>亿升帮您详细解析PPP的歪路与正道</h1>
+				        <p class="date">发布时间：2017-06-28 08:55 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;来源：搜狐 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;作者：亿升金融</p>
+				    </div>
+				    <div class="pagebox">
+				    	<p><span >近两年来，不少地方政府把PPP模式搞得风生水起，可是回头看看也有不少问题，以至于财政部在近期连续发文进行规范。下面有亿升小编带您一起了解ppp的歪路与正道。</span></p>
+						<p><span ><img  src="../img/0U5231V4-0.png"  /></span></p>
+						<p><span >所谓PPP，是政府引入具有投资建设和运营管理经验的社会资本一起合作开发项目，政府则让渡一部分项目的未来收益给社会资本。需要注意的是，这和以前地方债、平台融资的区别在于，融资主体是项目而不是政府。这里头的关键：是社会资本要利益共享风险共担。</span></p>
+						<p><span ><img  src="../img/0U5231046-1.png"  /></span></p>
+						<p><span ><span >可是在实践中，不少案例里地方政府还是在兜底，比如给社会资本以固定回报、承诺最低收益、回购安排等。</span></span></p>
+						<p><span ><img  src="../img/0U5231161-2.png"  /></span></p>
+						<p><span >这政府信用一下去，就是&ldquo;明股实债&rdquo;，不就变成了&ldquo;假PPP&rdquo;、变相的地方债了吗？社会资本也没了风险共担意识，那些本该他们操心的项目建设运营指标也形同虚设。所有的风控就只剩一条：盯着地方政府别违约就行。</span></p>
+						<p><span >&ldquo;愉见财经&rdquo;从地方政府和社会资本&ldquo;金主&rdquo;两头，都听到过他们想要进入这一灰色地带的理由&mdash;&mdash;</span></p>
+						<p><span >有地方财政人士说，一方面有些地方财政压力比较大，另一方面他们追求经济发展，总是希望项目越快上越好。规范的PPP，一来相对金主不好找、二来流程长耗时多。</span></p>
+						<p><span >从&ldquo;金主&rdquo;那头来说，就拿我采访过的某家银行来说，他们还是觉得好PPP项目难找，而且PPP项目动辄10年、20年，这么长的周期，其实难以详细追踪项目情况的，到最后还是要仰仗地方政府来保障，因此他们觉得拿固定回报是比较合理的安排。</span></p>
+						<p><span ><img src="../img/0U5235964-3.png"  /></span></p>
+						<p><span ><span >这可背离了PPP模式的初衷。财政部连续发文就是为了扭转这些现状，严禁地方政府利用PPP变相举债。</span></span></p>
+						<p><span >什么事儿都指望着地方政府刚性兑付的做法，以后会渐渐行不通。</span></p>
+						<p><span ><span >所以未来&ldquo;金主&rdquo;该怎么做出调整呢？</span>产业资本要看技术是否能满足政府要求；金融机构放款要分析项目自身现金流，对还款来源、追溯权、管理模式、退出机制等有新的认识，利用已有或新的工具来缓释风险的发生，而不是仅仅寄希望于政府兜底。各方都要转变思路。</span></p>
+						<p><span >央行金融市场司司长纪志宏此前表示，<span >在新的模式下要更加关注政府和社会资本各方面的权、责、利的分配，要求各类金融机构具备更高效、准确、科学的项目评估能力。</span></span></p>
+				    </div> 
+				    <div class="news-tag">
+					    <label>标签：</label>
+					    <a href="/tags.php?/PPP/">PPP</a>
+					    <a href="/tags.php?/%E4%BA%BF%E5%8D%87/">亿升</a>
+				    </div> 
+				    <div class="viewpage">
+					    <p>上一篇：<a href='/news/companynotices/article_20170622_263.html'>50号文、62号文、87号文新政下的土地收储与政府采购</a> </p>
+					    <p>下一篇：<a href='/news/companynotices/article_20170629_273.html'>养老项目如何对接PPP模式</a> </p>
+				        <a href="#" onclick="javascript:history.go(-1);" class="back">[返回列表]</a>
+			        </div>	
+				</div>
+			    <div class="news-copyright">
+				  <h4>版权声明</h4>
+				  <p>1.平台发布的任何转载的稿件都会明确标注作者和来源;</p>
+				  <p>2.如发现本站文章存在版权问题，烦请提供版权疑问、身份证明、版权证明、联系方式等发邮件至
+				    admin@ysemm.com,我们将及时沟通处理。</p>
+				</div>
+			</div>
+			
+			
+			<div class="concent-right">
+				  <div class="right-search-box">
+				    <form  name="formsearch" action="/plus/search.php">
+				    <input class="search-text" name="q"  type="text" placeholder="“搜索相关关键词”"><input type="hidden" name="searchtype" value="titlekeyword" />
+				    <input class="search-btn"  type="submit" value="">
+				    </form>
+				  </div>
+				  <div class="right-hot-box bgfff">
+			   <h1 class="right-box-title">热门文章</h1>
+			   <ul>
+			    <li>
+			     <a href="/news/industryinformations/article_20170616_253.html" title="发改委：今年7亿元支持地方PPP项目前期工作"><span>1</span><h3>发改委：今年7亿元支持地方PPP项目前期工作</h3></a>
+			   </li>
+			<li>
+			     <a href="/news/industryinformations/article_20170609_242.html" title="PPP政策密集落地 未来会有哪些期待"><span>2</span><h3>PPP政策密集落地 未来会有哪些期待</h3></a>
+			   </li>
+			<li>
+			     <a href="/news/industryinformations/article_20170612_245.html" title="60多家上市公司中标PPP项目 万亿市场规模可期 基建环保成大户"><span>3</span><h3>60多家上市公司中标PPP项目 万亿市场规模可期 基</h3></a>
+			   </li>
+			<li>
+			     <a href="/news/industryinformations/article_20170424_196.html" title="国内首个城市水环境流域综合治理PPP项目投入运营"><span>4</span><h3>国内首个城市水环境流域综合治理PPP项目投入运</h3></a>
+			   </li>
+			<li>
+			     <a href="/news/industryinformations/article_20170502_201.html" title="文化部：优先支持符合三个重大项目支持重点的PPP项目"><span>5</span><h3>文化部：优先支持符合三个重大项目支持重点的</h3></a>
+			   </li>
+			<li>
+			     <a href="/news/industryinformations/article_20170525_218.html" title="城投走PPP模式好吗"><span>6</span><h3>城投走PPP模式好吗</h3></a>
+			   </li>
+			<li>
+			     <a href="/news/industryinformations/article_20170526_219.html" title="交通投资保持高增长 PPP助力项目落地"><span>7</span><h3>交通投资保持高增长 PPP助力项目落地</h3></a>
+			   </li>
+			<li>
+			     <a href="/news/industryinformations/article_20170607_235.html" title="PPP项目的常见融资方式有哪些？"><span>8</span><h3>PPP项目的常见融资方式有哪些？</h3></a>
+			   </li>
+			           
+			
+			 </ul>
+			</div>
+				<div class="ad-right"><a href="http://www.ysemm.cn/a/aboutus/"><img src="../img/ad.jpg" width="320" height="47" border="0" alt="项目融资，资金合作推荐"/></a></div>
+				<div class="right-tag-box bgfff">
+				 <h1 class="right-box-title">热门标签</h1>
+				 <ul class="clearfix">
+				  <li class="item"><a target="_blank" href='/tags.php?/%E8%B5%84%E4%BA%A7%E8%AF%81%E5%88%B8%E5%8C%96/'>资产证券化</a></li>
+				  
+				  <li class="item"><a target="_blank" href='/tags.php?/PPP%E8%B5%84%E4%BA%A7%E8%AF%81%E5%88%B8%E5%8C%96/'>PPP资产证券化</a></li>
+				  
+				  <li class="item"><a target="_blank" href='/tags.php?/%E5%9C%B0%E6%96%B9PPP%E9%A1%B9%E7%9B%AE/'>地方PPP项目</a></li>
+				  
+				  <li class="item"><a target="_blank" href='/tags.php?/%E8%B5%84%E9%87%91%E5%90%88%E4%BD%9C/'>资金合作</a></li>
+				  
+				  <li class="item"><a target="_blank" href='/tags.php?/%E4%B8%9D%E5%8D%9A%E4%BC%9A/'>丝博会</a></li>
+				  
+				  <li class="item"><a target="_blank" href='/tags.php?/%E4%BF%A1%E6%81%AF%E5%85%AC%E5%BC%80/'>信息公开</a></li>
+				  
+				  <li class="item"><a target="_blank" href='/tags.php?/%E5%85%91%E4%BB%98/'>兑付</a></li>
+				  
+				  <li class="item"><a target="_blank" href='/tags.php?/%E4%B8%BE%E5%80%BA%E8%9E%8D%E8%B5%84/'>举债融资</a></li>
+				  
+				  <li class="item"><a target="_blank" href='/tags.php?/%E4%BF%9D%E9%99%A9%E8%B5%84%E9%87%91/'>保险资金</a></li>
+				  
+				  <li class="item"><a target="_blank" href='/tags.php?/PPP%E8%B4%A2%E6%94%BF%E6%89%B6%E6%8C%81/'>PPP财政扶持</a></li>
+				  
+				  <li class="item"><a target="_blank" href='/tags.php?/%E6%8A%95%E8%9E%8D%E8%B5%84%E7%AE%A1%E7%90%86/'>投融资管理</a></li>
+				  
+				  <li class="item"><a target="_blank" href='/tags.php?/%E4%BA%91%E5%8D%97/'>云南</a></li>
+				  
+				  <li class="item"><a target="_blank" href='/tags.php?/PPP%E8%9E%8D%E8%B5%84%E9%A1%B9%E7%9B%AE/'>PPP融资项目</a></li>
+				  
+				  <li class="item"><a target="_blank" href='/tags.php?/%E5%86%9C%E4%B8%9APPP/'>农业PPP</a></li>
+				  
+				  <li class="item"><a target="_blank" href='/tags.php?/%E8%B5%B7%E7%82%B9/'>起点</a></li>
+				  
+				  <li class="item"><a target="_blank" href='/tags.php?/%E4%B8%8A%E5%B8%82%E5%85%AC%E5%8F%B8/'>上市公司</a></li>
+				  
+				  <li class="item"><a target="_blank" href='/tags.php?/%E5%9F%BA%E9%87%91%E6%88%90%E7%AB%8B/'>基金成立</a></li>
+				  
+				  <li class="item"><a target="_blank" href='/tags.php?/%E7%8E%AF%E4%BF%9D%E7%B1%BBPPP/'>环保类PPP</a></li>
+				  
+				  <li class="item"><a target="_blank" href='/tags.php?/%E8%A7%84%E6%A8%A1%E5%88%86%E6%9E%90/'>规模分析</a></li>
+				  
+				  <li class="item"><a target="_blank" href='/tags.php?/%E5%9F%BA%E5%BB%BA%E7%8E%AF%E4%BF%9D/'>基建环保</a></li>
+				  
+				</ul>
+				</div>
+				<div class="right-recommend-box bgfff">
+			 <h1 class="right-box-title">推荐文章</h1>
+			 <ul>
+			  <!-- type="image" -->
+			  <li>
+			  <a href="/news/companynews/article_20170707_283.html" title="深度解析PPP的三大核心" ><img src='../img/8-1FFF920540-L.jpg' border='0' width='120' height='120' alt='深度解析PPP的三大核心'></a>
+			   <div>
+			    <a href="/news/companynews/article_20170707_283.html" title="深度解析PPP的三大核心" ><h3>深度解析PPP的三大核心</h3></a>
+			    <p>随着PPP模式在国内的发展愈发火热,对PPP抱有关注的人士越来越多,越来越多的企业想要涉足PPP领域。然而,由于PPP模式在我国采用年限不久很多人对PPP模式也仅是一知半解,那么PPP模式在采用过程中对于政企双方最主要存在的核心是什么呢?</p>
+			  </div>
+			
+			</li>
+			<!-- type="image" -->
+			  <li>
+			  <a href="/news/industryinformations/article_20170706_282.html" title="拿出更多优质资产，通过PPP模式引入各类投资" ><img src='../img/defaultpic.gif' border='0' width='120' height='120' alt='拿出更多优质资产，通过PPP模式引入各类投资'></a>
+			   <div>
+			    <a href="/news/industryinformations/article_20170706_282.html" title="拿出更多优质资产，通过PPP模式引入各类投资" ><h3>拿出更多优质资产，通过PPP模式引入</h3></a>
+			    <p>国务院总理李克强7月5日主持召开国务院常务会议，部署整改审计查出的预算执行等问题，推动国家重大政策措施落地见效；听取投融资体制改革进展汇报，要求发挥社会资本作用促进有效投资</p>
+			  </div>
+			
+			</li>
+			<!-- type="image" -->
+			  <li>
+			  <a href="/news/industryinformations/article_20170706_281.html" title="信托谋求新出路 PPP或成新宠" ><img src='../img/8-1FF60TQ30-L.jpg' border='0' width='120' height='120' alt='信托谋求新出路 PPP或成新宠'></a>
+			   <div>
+			    <a href="/news/industryinformations/article_20170706_281.html" title="信托谋求新出路 PPP或成新宠" ><h3>信托谋求新出路 PPP或成新宠</h3></a>
+			    <p>日前，江苏国信发布公告指出，2017年6月28日，江苏国信股份有限公司控股子公司江苏省国际信托有限责任公司（以下简称“江苏信托”）与中国政企合作投资基金股份有限公司、江苏省财政厅和江苏银行股份有限公司，共同参与了中政企江苏省PPP合作基金正式成立暨首批投资项目签约仪式。</p>
+			  </div>
+			
+			</li>
+			<!-- type="image" -->
+			  <li>
+			  <a href="/news/industryinformations/article_20170705_280.html" title="PPP转型从融资到投资 打通“投融管退”最后一公里" ><img src='../img/defaultpic.gif' border='0' width='120' height='120' alt='PPP转型从融资到投资 打通“投融管退”最后一公里'></a>
+			   <div>
+			    <a href="/news/industryinformations/article_20170705_280.html" title="PPP转型从融资到投资 打通“投融管退”最后一公里" ><h3>PPP转型从融资到投资 打通“投融管退</h3></a>
+			    <p>任何一个领域，资本进入的前提就是考虑如何退出，如果说不清楚怎么退，资本是很难进入的。这在基础设施PPP项目中也是同理。城发基金董事长林旭初在第二届广州PPP创新发展研讨会上表示。</p>
+			  </div>
+			
+			</li>
+			<!-- type="image" -->
+			 	<li>
+				  <a href="/news/industryinformations/article_20170704_279.html" title="房企的PPP发展模式" ><img src='../img/0S64R945-0-lp.jpg' border='0' width='120' height='120' alt='房企的PPP发展模式'></a>
+			 	  <div>
+				       <a href="../img/article_20170704_279.html" title="房企的PPP发展模式" ><h3>房企的PPP发展模式</h3></a>
+			   		   <p>PPP模式 发展开始于改革开放，经历了五个阶段，三次高潮，目前正处于第三波高潮中，且PPP模式正在处于不断完善的过程中，后续的发展令人值得期待。 一、PPP模式的发展阶段 i. 探索</p>
+			  	  </div>
+				</li>
+			</ul>
+		</div>    	
+  			</div>
+  		</div>
+    </section>	
+</div>
+    <!-------------------------------------------------concent结束---------------------------------------------------->
+	<!----------------------------------------------------footer开始---------------------------------------------------->
+		<footer id="footer">
+			<h4>友情链接</h4>
+			<div class="iflink">
+	            <div class="panel">
+	                <a target="_blank" href="https://www.batiaoyu.com/" title="八条鱼理财">理财产品</a>
+	                <a target="_blank" href="http://bbs.changjiudai.com/">P2P理财</a>
+	                <a target="_blank" href="http://www.xinhuadazong.cc" title="东北亚北方商品交易中心">亚商所</a>
+	                <a target="_blank" href="http://www.ysemm.cn/sitemap.html">网站地图</a>
+	            	<div class="flink-line"></div>
+	            </div>
+	            <div class="panel">
+	                <a target="_blank" href="http://www.nongjindata.com">互联网金融</a>
+	                <a target="_blank" href="http://www.chinappp.cn/">中国PPP服务平台</a>
+	                <a target="_blank" href="http://www.ysemm.cn/a/aboutus/">PPP项目投资推荐</a>
+	                <a target="_blank" href="http://www.ysemm.cn/a/aboutus/">政府项目融资平台</a>
+	                <div class="flink-line"></div>
+	            </div>
+	            <div class="panel">
+	                <a target="_blank" href="http://www.ysemm.cn/a/cooperation/">PPP项目资金合作</a>
+	                <a target="_blank" href="http://www.ysemm.cn/a/cooperation/">政府项目合作</a>
+	                <a target="_blank" href="http://www.ysemm.cn/a/cooperation/">政府融资</a>
+	                <a target="_blank" href="http://www.ysemm.cn/tags.php">网站标签</a>
+	           	    <div class="flink-line"></div>
+	            </div>
+	            <div class="panel">
+	                <a target="_blank" href="http://www.chinatzlt.org.cn/">中国投资论坛</a>
+	                <a target="_blank" href="http://www.ysemm.cn/a/contactus/">PPP项目融资</a>
+	                <a target="_blank" href="http://www.ysemm.cn/a/contactus/">政府平台引资</a>
+	                <a target="_blank" href="http://www.ysemm.cn/a/regionalagency/">省级代理人</a>
+	             	<div class="flink-line"></div>
+	            </div>
+	            <div class="panel">
+	                <a target="_blank" href="http://www.wuyabuluo.com">乌鸦部落</a>
+	                <a target="_blank" href="http://www.ysemm.cn/a/regionalagency/">区域代理</a>
+	                <a target="_blank" href="http://www.ysemm.cn/news/">融资资讯</a>
+	                <a target="_blank" href="http://expo.bootcss.com/">Bootstrap优站精选</a>
+	            </div>
+            </div>
+            <div class="copyright">
+            	<p>
+            		<a href="http://si.trustutn.org/info?sn=321170316000571380559&amp;certType=4"><img class="zqrz" src="../img/netverify.jpg" alt="已通过互联网金融行业认证"></a>
+      			    <a href="http://webscan.360.cn/index/checkwebsite/url/www.ysemm.cn"><img src="../img/360verify.jpg" alt="已通过360网站安全检测"></a>
+            	</p>
+            	<p>Copyright © 2015 - 2017 Ysemm. All Rights Reserved</p>
+			    <p>
+			      <a href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" target="_blank" rel="nofollow">备案号：粤ICP备15071992号-1</a>
+			    </p>
+            </div>
+		</footer>
+	<!----------------------------------------------------footer结束---------------------------------------------------->
+	</body>
+	<script src="../js/wow.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+	if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+		new WOW().init();
+	};
+	</script>
+</html>

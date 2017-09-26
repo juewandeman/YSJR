@@ -1,0 +1,240 @@
+.services{
+	width: 1160px;
+	box-sizing: border-box;
+	padding: 0 15px;
+	margin: 0 auto;
+	text-align: center;
+}
+.services h2{
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    color: #3f3a39;
+    font-family: inherit;
+    font-weight: 500;
+    padding-top: 30px;
+}
+.services h2 small{
+	display: block;
+	color: #727272;
+    font-size: 14px;
+    line-height: 24px;
+    height: 28px;
+    letter-spacing: 0;
+}
+.services p{
+    display: inline-block;
+    border: 1px solid #d0d0d0;
+    padding: 8px 18px;
+    font-size: 18px;
+    color: #949191;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+.services img{
+	margin: 30px auto;
+}
+.financing{
+	width: 1223px;
+	padding: 35px 0px 10px 0;
+	margin: 60px auto 0 auto;
+	position: relative;
+}
+.financing:before{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 0;
+	border-bottom:1px solid #d4d4d4;
+	position: absolute;
+	left: 0;
+	top: 20px;
+	z-index: 1;
+}
+.financing:after{
+	content: '';
+	display: block;
+	width: 380px;
+	height: 54px;
+	position: absolute;
+	top: 0;
+	left: calc(50% - 190px);
+	background: url(../img/Financing.png) no-repeat center top,#fff;
+	z-index: 2;
+}
+.financing h2 {
+    font-size: 28px;
+    line-height: 35px;
+    height: 35px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #3f3a39;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.financing p:first-child{
+    display: block;
+    border: 1px solid #dcdcdc;
+    padding: 8px 58px;
+    color: #3f3a39;
+    text-align: center;
+    width: 520px;
+    margin: 10px auto;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.financing .ywsl{
+    padding: 45px 20px 35px 20px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+.financing .ywsl strong{
+    color: #ffc100;
+    font-weight: bold;
+}
+.financing ul {
+	width: 840px;
+	margin: 0 auto;
+}
+.financing ul li{
+	width: 33.3333%;
+	float: left;
+	text-align: center;
+}
+.financing ul li:nth-of-type(2){
+	width: calc(33.33333% - 4px);
+	border-left: 2px solid #a2a2a2;
+    border-right: 2px solid #a2a2a2;
+    position: relative;
+}
+.financing ul li:nth-of-type(2) .plus-left,.financing ul li:nth-of-type(2) .plus-right{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: -11px;
+	top: 48px;
+	background: url(../img/icon-plus.png) no-repeat left top;
+}
+.financing ul li:nth-of-type(2) .plus-right{
+	left: calc(100% - 9px);
+}
+.financing ul li h4 {
+    font-size: 18px;
+    color: #dc040d;
+    line-height: 35px;
+    height: 46px;
+    font-weight: 500;
+}
+.financing ul li p{
+    line-height: 24px;
+    height: 80px;
+    color: #666666;
+    font-size: 15px;
+}
+.financing>img{
+	width: 1024px;
+	padding: 100px 60px 100px 90px;
+}
+.coopera{
+	width: 1223px;
+	padding: 35px 0px 10px 0;
+	margin: 60px auto 0 auto;
+	position: relative;
+}
+.coopera:before{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 0;
+	border-bottom:1px solid #d4d4d4;
+	position: absolute;
+	left: 0;
+	top: 20px;
+	z-index: 1;
+}
+.coopera:after{
+	content: '';
+	display: block;
+	width: 380px;
+	height: 54px;
+	position: absolute;
+	top: 0;
+	left: calc(50% - 190px);
+	background: url(../img/Cooperation.png) no-repeat center top,#fff;
+	z-index: 2;
+}
+.coopera h2 {
+    font-size: 28px;
+    line-height: 35px;
+    height: 35px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #3f3a39;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.coopera>p{
+    display: block;
+    border: 1px solid #dcdcdc;
+    padding: 22px 10px;
+    color: #3f3a39;
+    text-align: center;
+    width: 525px;
+    margin: 10px auto;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.coopera .row{
+	width: 663px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: center;
+	padding-top: 25px;
+	padding-left: 30px;
+}
+.coopera .row .col{
+	width: 30.3333%;
+	float: left;
+	margin-right: 3%;
+	overflow: hidden;
+}
+.coopera .row .fadeInRight p{
+	height: 32px;
+	line-height: 32px;
+	font-size: 16px;
+    letter-spacing: 2px;
+    color: #de0f18;
+}
+.coopera ul{
+	width: 934px;
+	margin: 60px auto;
+	padding-bottom: 100px;
+	overflow: hidden;
+}
+.coopera ul li{
+	width: 50%;
+    background: #dc040d;
+    padding: 0;
+    height: 200px;
+    float: left;
+    overflow: hidden;
+}
+.coopera ul li img{
+	width: 100%;
+}
+.coopera ul li p {
+    color: #FFF;
+    padding: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-indent: 2rem;
+    font-size: 15px;
+}
